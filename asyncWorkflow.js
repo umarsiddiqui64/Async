@@ -1,3 +1,17 @@
+/**
+ * Workflow Description:
+ * 
+ * This workflow simulates user registration, email verification, login, 
+ * and a welcome message display using asynchronous tasks. Each step 
+ * has a 1-second delay. Errors are handled by passing error messages 
+ * between functions and stopping the workflow upon failure.
+ * 
+ * Functions:
+ * 1. registerUser: Simulates user registration.
+ * 2. sendVerification: Simulates sending a verification email.
+ * 3. loginUser: Simulates logging in the user.
+ * 4. displayWelcomeMessage: Simulates displaying a welcome message.
+ */
 
 function registerUser(callback) {
     setTimeout(() => {
